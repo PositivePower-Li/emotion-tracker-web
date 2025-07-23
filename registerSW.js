@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/emotion-tracker-web/sw.js', { scope: '/emotion-tracker-web/' })})}
